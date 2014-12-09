@@ -1,0 +1,41 @@
+#audifly_root
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:1350px;    
+}
+
+#audifly_dashboard
+{
+    width:1350px;
+    height:90px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#audifly_dashboard_controls
+{   
+    position:absolute;
+    left:250px;
+    top:0px;
+    
+    width:800px;
+    padding: 5px;
+    border-left: 20px;
+}
+
+#audifly_canvas
+{
+    position:absolute;
+    top: 90px;
+    left: 0px;
+    
+}
+
+#song_selector
+{
+    position:absolute;
+    width:400px;
+}

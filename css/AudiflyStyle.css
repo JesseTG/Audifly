@@ -1,0 +1,41 @@
+#audifly_root
+{
+    font-family: 'Courgette', cursive;
+}
+
+#audifly_dashboard
+{
+    background-color: black;
+}
+
+#audifly_dashboard_logo
+{
+    font-size: 42pt;
+    color: white;
+}
+
+#audifly_dashboard_controls
+{
+    border-color:rgb(10,10,10);
+    
+}
+
+.audifly_dashboard_button
+{
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.audifly_dashboard_radio
+{
+    margin-left:20px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-weight:50pt;
+    padding: 5px;
+}
+
+#audifly_canvas
+{
+    background-color: rgb(220, 210, 190);
+}

@@ -1,0 +1,89 @@
+<!--
+    This is the homepage for the Audifly application,
+    which lets one provide custom graphical representations
+    for provided MP3 and MIDI songs.
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <!-- WE'LL USE TWITTER BOOTSTRAP GLYPHICONS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!-- WE WANT TO USE SOME CUSTOM GOOGLE FONTS -->
+        <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+        <!-- AND THEN CUSTOMIZE SOME OF OUR OWN STYLE -->
+        <link rel="stylesheet" href="./css/AudiflyStyle.css">
+        <link rel="stylesheet" href="./css/AudiflyLayout.css">
+
+        <!-- JQUERY.js HELPS UPDATE THE DOM -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <!-- MIDI.js  -  We'll use these to play our MIDI
+             music files as well as to get notifications of 
+             MIDI events, like when a note is played -->
+        <script src="./js/MIDI/Color/SpaceW3.js" type="text/javascript"></script>
+        <script src="./js/MIDI/AudioDetect.js" type="text/javascript"></script>
+        <script src="./js/MIDI/LoadPlugin.js" type="text/javascript"></script>
+        <script src="./js/MIDI/Plugin.js" type="text/javascript"></script>
+        <script src="./js/MIDI/Player.js" type="text/javascript"></script>
+        <script src="./js/MIDI/MusicTheory/Synesthesia.js" type="text/javascript"></script>
+        <script src="./js/MIDI/Widgets/Loader.js" type="text/javascript"></script>
+        <script src="./js/MIDI/Window/Event.js" type="text/javascript"></script>
+        <script src="./js/MIDI/Window/DOMLoader.XMLHttp.js" type="text/javascript"></script>
+
+        <!-- jasmid package -->
+        <script src="./js/MIDI/inc/jasmid/stream.js"></script>
+        <script src="./js/MIDI/inc/jasmid/midifile.js"></script>
+        <script src="./js/MIDI/inc/jasmid/replayer.js"></script>
+
+        <!-- extras -->
+        <script src="./js/MIDI/inc/Base64.js" type="text/javascript"></script>
+        <script src="./js/MIDI/inc/base64binary.js" type="text/javascript"></script>
+
+        <!-- HERE ARE OUR Audifly FILES -->
+        <script src="./js/audifly/AudiflySongscape.js"></script>
+        <script src="./js/audifly/AudiflyMIDIPlayer.js"></script>
+        <script src="./js/audifly/AudiflyMp3Player.js"></script>
+        <script src="./js/audifly/Audifly.js"></script>
+        <script src="./js/audifly/AudiflySongscapesLoader.js"></script>
+        <script src="./soundfont/acoustic_grand_piano-mp3.js"></script>
+    </head>
+
+    <body>
+        <div id="audifly_root">
+            <canvas id="audifly_canvas" width="1350" height="540"></canvas>
+            <audio id="audio_id"></audio>
+
+            <div id="audifly_dashboard">
+                <span id="audifly_dashboard_logo">Audifly</span>
+                <div id="audifly_dashboard_controls">
+                    <div class="btn-group-sm" role="group" aria-label="What's an aria?">
+                        <button id="stop_btn"   class="btn btn-primary glyphicon glyphicon-stop"   title="Stop"                    onclick="audifly.stop()"></button>
+                        <button id="prev_btn"   class="btn btn-primary glyphicon glyphicon-backward"        title="Previous Songscape"      onclick="audifly.nextPrev(false)"></button>
+                        <button id="play_btn"   class="btn btn-primary glyphicon glyphicon-play"            title="Play"                    onclick="audifly.playPause()"></button>
+                        <button id="next_btn"   class="btn btn-primary glyphicon glyphicon-forward"         title="Next Songscape"          onclick="audifly.nextPrev(true)"></button>
+                        <button id="rand_btn"   class="btn btn-primary glyphicon glyphicon-random"          title="Randomize Playlist"      onclick="audifly.randomize()"></button>
+                        <button id="sort_btn"   class="btn btn-primary glyphicon glyphicon-sort"            title="Reset Playlist"          onclick="audifly.reset()"></button>
+                    </div>
+                    <br />
+                    <select id="song_selector">
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // START Audifly WHEN THE PAGE LOADS
+            $(document).ready(function () {
+                // INIT THE Audifly APP
+                var audiflyCanvas = document.getElementById("audifly_canvas");
+                audifly = new Audifly(audiflyCanvas);
+                audiflySongscapesLoader = new AudiflySongscapesLoader();
+                audifly.initSongscapes(audiflySongscapesLoader);
+            });
+        </script>
+    </body>
+</html>

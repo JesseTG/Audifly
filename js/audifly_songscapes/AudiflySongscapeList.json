@@ -1,0 +1,132 @@
+{
+    "songscapesData": [
+        {
+            "title" : "We Will Rock You",
+            "fileName" : "WeWillRockYou.mp3",
+            "artist" : "Queen (Cover by Jesse Talavera-Greenberg)",
+            "playerType" : "mp3Player",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title" : "Peter",
+            "fileName" : "Peter.mp3",
+            "artist" : "Jesse Talavera-Greenberg",
+            "playerType" : "mp3Player",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title" : "The Message",
+            "fileName": "TheMessage.ogg",
+            "artist": "Jesse Talavera-Greenberg",
+            "playerType":"mp3Player",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Etude in F Minor Op. 10 No. 9",
+            "fileName": "EtudeFMinorOp10No9.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Nocturne 8in D Flat Major",
+            "fileName": "Nocturne8inDbMajor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Opus 28 No. 2",
+            "fileName": "Opus28No2.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Polonaise",
+            "fileName": "Polonaise.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude in B Flat Minor",
+            "fileName": "PreludeInBFlatMinor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude in B Major",
+            "fileName": "PreludeInBMajor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude in C Major",
+            "fileName": "PreludeInCMajor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude In C Sharp Minor",
+            "fileName": "PreludeInCSharpMinor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude in E Major",
+            "fileName": "PreludeInEMajor.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude in F Major Op. 28. No. 23",
+            "fileName": "PreludeInFMajorOp28No23.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Prelude Op. 28 No. 12",
+            "fileName": "PreludeOp28No12.midi",
+            "artist": "Frederic Chopin",
+            "playerType": "midiPlayer",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Sláinte",
+            "fileName": "Slainte.mp3",
+            "artist": "Richard McKenna",
+            "playerType": "mp3Player",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        },
+        {
+            "title": "Tracked",
+            "fileName": "Tracked.mp3",
+            "artist": "Richard McKenna & Joao Alvarez",
+            "playerType": "mp3Player",
+            "rendererFile": "JesseTalaveraGreenberg_Renderer.js",
+            "renderer": "JesseTalaveraGreenberg_Renderer"
+        }
+    ]
+}
